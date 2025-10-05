@@ -89,3 +89,19 @@ pyannote/audio/version.py
 
 # vim
 .vim
+
+# macOS
+.DS_Store
+
+# Python virtual environments
+.venv/
+
+# C compilation artifacts
+*.o
+*.a
+*.onnx
+poc_diarize
+poc_diarize_final
+poc_diarize_full
+onnxruntime-osx-arm64-*/
+*.tgz

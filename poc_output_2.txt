@@ -1,0 +1,231 @@
+=== PyAnnote Speaker Diarization Results ===
+
+Loaded 1424384 samples (89.0 seconds) at 16000 Hz
+
+=== Processing ===
+
+Found 25 speech segments
+Clustering speakers...
+
+=== CLUSTERING DEBUG ===
+Segments with embeddings: 21
+  Seg 0 (0.0s-2.3s) <-> Seg 1 (3.1s-5.0s): similarity=0.740
+  Seg 0 (0.0s-2.3s) <-> Seg 2 (5.0s-10.0s): similarity=0.771
+  Seg 0 (0.0s-2.3s) <-> Seg 3 (10.0s-15.0s): similarity=0.748
+  Seg 0 (0.0s-2.3s) <-> Seg 4 (15.0s-20.0s): similarity=0.767
+  Seg 0 (0.0s-2.3s) <-> Seg 5 (20.0s-23.4s): similarity=0.753
+  Seg 0 (0.0s-2.3s) <-> Seg 8 (25.0s-26.2s): similarity=0.646
+  Seg 0 (0.0s-2.3s) <-> Seg 10 (26.7s-30.0s): similarity=0.676
+  Seg 0 (0.0s-2.3s) <-> Seg 11 (30.0s-35.0s): similarity=0.713
+  Seg 0 (0.0s-2.3s) <-> Seg 12 (35.0s-40.0s): similarity=0.646
+  Seg 0 (0.0s-2.3s) <-> Seg 13 (40.0s-45.0s): similarity=0.675
+  Seg 0 (0.0s-2.3s) <-> Seg 14 (45.0s-50.0s): similarity=0.718
+  Seg 0 (0.0s-2.3s) <-> Seg 20 (70.0s-75.0s): similarity=0.601
+  Seg 0 (0.0s-2.3s) <-> Seg 21 (75.0s-80.0s): similarity=0.605
+  Seg 0 (0.0s-2.3s) <-> Seg 22 (80.2s-85.0s): similarity=0.676
+  Seg 0 (0.0s-2.3s) <-> Seg 23 (85.0s-88.2s): similarity=0.609
+  Seg 1 (3.1s-5.0s) <-> Seg 2 (5.0s-10.0s): similarity=0.746
+  Seg 1 (3.1s-5.0s) <-> Seg 3 (10.0s-15.0s): similarity=0.710
+  Seg 1 (3.1s-5.0s) <-> Seg 4 (15.0s-20.0s): similarity=0.660
+  Seg 1 (3.1s-5.0s) <-> Seg 5 (20.0s-23.4s): similarity=0.767
+  Seg 1 (3.1s-5.0s) <-> Seg 8 (25.0s-26.2s): similarity=0.618
+  Seg 1 (3.1s-5.0s) <-> Seg 10 (26.7s-30.0s): similarity=0.622
+  Seg 1 (3.1s-5.0s) <-> Seg 12 (35.0s-40.0s): similarity=0.641
+  Seg 1 (3.1s-5.0s) <-> Seg 13 (40.0s-45.0s): similarity=0.646
+  Seg 1 (3.1s-5.0s) <-> Seg 14 (45.0s-50.0s): similarity=0.675
+  Seg 1 (3.1s-5.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.668
+  Seg 2 (5.0s-10.0s) <-> Seg 3 (10.0s-15.0s): similarity=0.905
+  Seg 2 (5.0s-10.0s) <-> Seg 4 (15.0s-20.0s): similarity=0.828
+  Seg 2 (5.0s-10.0s) <-> Seg 5 (20.0s-23.4s): similarity=0.878
+  Seg 2 (5.0s-10.0s) <-> Seg 6 (23.4s-24.6s): similarity=0.677
+  Seg 2 (5.0s-10.0s) <-> Seg 8 (25.0s-26.2s): similarity=0.760
+  Seg 2 (5.0s-10.0s) <-> Seg 10 (26.7s-30.0s): similarity=0.829
+  Seg 2 (5.0s-10.0s) <-> Seg 11 (30.0s-35.0s): similarity=0.825
+  Seg 2 (5.0s-10.0s) <-> Seg 12 (35.0s-40.0s): similarity=0.813
+  Seg 2 (5.0s-10.0s) <-> Seg 13 (40.0s-45.0s): similarity=0.786
+  Seg 2 (5.0s-10.0s) <-> Seg 14 (45.0s-50.0s): similarity=0.799
+  Seg 2 (5.0s-10.0s) <-> Seg 16 (51.4s-55.0s): similarity=0.784
+  Seg 2 (5.0s-10.0s) <-> Seg 17 (55.0s-60.0s): similarity=0.743
+  Seg 2 (5.0s-10.0s) <-> Seg 18 (60.0s-65.0s): similarity=0.666
+  Seg 2 (5.0s-10.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.808
+  Seg 2 (5.0s-10.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.807
+  Seg 2 (5.0s-10.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.823
+  Seg 2 (5.0s-10.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.843
+  Seg 2 (5.0s-10.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.788
+  Seg 3 (10.0s-15.0s) <-> Seg 4 (15.0s-20.0s): similarity=0.844
+  Seg 3 (10.0s-15.0s) <-> Seg 5 (20.0s-23.4s): similarity=0.864
+  Seg 3 (10.0s-15.0s) <-> Seg 6 (23.4s-24.6s): similarity=0.666
+  Seg 3 (10.0s-15.0s) <-> Seg 8 (25.0s-26.2s): similarity=0.736
+  Seg 3 (10.0s-15.0s) <-> Seg 10 (26.7s-30.0s): similarity=0.818
+  Seg 3 (10.0s-15.0s) <-> Seg 11 (30.0s-35.0s): similarity=0.798
+  Seg 3 (10.0s-15.0s) <-> Seg 12 (35.0s-40.0s): similarity=0.777
+  Seg 3 (10.0s-15.0s) <-> Seg 13 (40.0s-45.0s): similarity=0.749
+  Seg 3 (10.0s-15.0s) <-> Seg 14 (45.0s-50.0s): similarity=0.781
+  Seg 3 (10.0s-15.0s) <-> Seg 16 (51.4s-55.0s): similarity=0.789
+  Seg 3 (10.0s-15.0s) <-> Seg 17 (55.0s-60.0s): similarity=0.731
+  Seg 3 (10.0s-15.0s) <-> Seg 18 (60.0s-65.0s): similarity=0.660
+  Seg 3 (10.0s-15.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.800
+  Seg 3 (10.0s-15.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.769
+  Seg 3 (10.0s-15.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.801
+  Seg 3 (10.0s-15.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.813
+  Seg 3 (10.0s-15.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.783
+  Seg 4 (15.0s-20.0s) <-> Seg 5 (20.0s-23.4s): similarity=0.802
+  Seg 4 (15.0s-20.0s) <-> Seg 8 (25.0s-26.2s): similarity=0.659
+  Seg 4 (15.0s-20.0s) <-> Seg 10 (26.7s-30.0s): similarity=0.795
+  Seg 4 (15.0s-20.0s) <-> Seg 11 (30.0s-35.0s): similarity=0.837
+  Seg 4 (15.0s-20.0s) <-> Seg 12 (35.0s-40.0s): similarity=0.801
+  Seg 4 (15.0s-20.0s) <-> Seg 13 (40.0s-45.0s): similarity=0.811
+  Seg 4 (15.0s-20.0s) <-> Seg 14 (45.0s-50.0s): similarity=0.840
+  Seg 4 (15.0s-20.0s) <-> Seg 16 (51.4s-55.0s): similarity=0.698
+  Seg 4 (15.0s-20.0s) <-> Seg 17 (55.0s-60.0s): similarity=0.660
+  Seg 4 (15.0s-20.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.701
+  Seg 4 (15.0s-20.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.667
+  Seg 4 (15.0s-20.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.694
+  Seg 4 (15.0s-20.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.721
+  Seg 4 (15.0s-20.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.709
+  Seg 5 (20.0s-23.4s) <-> Seg 6 (23.4s-24.6s): similarity=0.684
+  Seg 5 (20.0s-23.4s) <-> Seg 8 (25.0s-26.2s): similarity=0.704
+  Seg 5 (20.0s-23.4s) <-> Seg 10 (26.7s-30.0s): similarity=0.833
+  Seg 5 (20.0s-23.4s) <-> Seg 11 (30.0s-35.0s): similarity=0.801
+  Seg 5 (20.0s-23.4s) <-> Seg 12 (35.0s-40.0s): similarity=0.825
+  Seg 5 (20.0s-23.4s) <-> Seg 13 (40.0s-45.0s): similarity=0.805
+  Seg 5 (20.0s-23.4s) <-> Seg 14 (45.0s-50.0s): similarity=0.743
+  Seg 5 (20.0s-23.4s) <-> Seg 16 (51.4s-55.0s): similarity=0.777
+  Seg 5 (20.0s-23.4s) <-> Seg 17 (55.0s-60.0s): similarity=0.769
+  Seg 5 (20.0s-23.4s) <-> Seg 18 (60.0s-65.0s): similarity=0.715
+  Seg 5 (20.0s-23.4s) <-> Seg 19 (65.0s-70.0s): similarity=0.833
+  Seg 5 (20.0s-23.4s) <-> Seg 20 (70.0s-75.0s): similarity=0.838
+  Seg 5 (20.0s-23.4s) <-> Seg 21 (75.0s-80.0s): similarity=0.842
+  Seg 5 (20.0s-23.4s) <-> Seg 22 (80.2s-85.0s): similarity=0.858
+  Seg 5 (20.0s-23.4s) <-> Seg 23 (85.0s-88.2s): similarity=0.803
+  Seg 6 (23.4s-24.6s) <-> Seg 8 (25.0s-26.2s): similarity=0.664
+  Seg 6 (23.4s-24.6s) <-> Seg 10 (26.7s-30.0s): similarity=0.662
+  Seg 6 (23.4s-24.6s) <-> Seg 11 (30.0s-35.0s): similarity=0.604
+  Seg 6 (23.4s-24.6s) <-> Seg 16 (51.4s-55.0s): similarity=0.742
+  Seg 6 (23.4s-24.6s) <-> Seg 17 (55.0s-60.0s): similarity=0.763
+  Seg 6 (23.4s-24.6s) <-> Seg 18 (60.0s-65.0s): similarity=0.840
+  Seg 6 (23.4s-24.6s) <-> Seg 19 (65.0s-70.0s): similarity=0.776
+  Seg 6 (23.4s-24.6s) <-> Seg 20 (70.0s-75.0s): similarity=0.803
+  Seg 6 (23.4s-24.6s) <-> Seg 21 (75.0s-80.0s): similarity=0.793
+  Seg 6 (23.4s-24.6s) <-> Seg 22 (80.2s-85.0s): similarity=0.774
+  Seg 6 (23.4s-24.6s) <-> Seg 23 (85.0s-88.2s): similarity=0.833
+  Seg 8 (25.0s-26.2s) <-> Seg 10 (26.7s-30.0s): similarity=0.749
+  Seg 8 (25.0s-26.2s) <-> Seg 11 (30.0s-35.0s): similarity=0.661
+  Seg 8 (25.0s-26.2s) <-> Seg 12 (35.0s-40.0s): similarity=0.673
+  Seg 8 (25.0s-26.2s) <-> Seg 13 (40.0s-45.0s): similarity=0.630
+  Seg 8 (25.0s-26.2s) <-> Seg 14 (45.0s-50.0s): similarity=0.696
+  Seg 8 (25.0s-26.2s) <-> Seg 16 (51.4s-55.0s): similarity=0.750
+  Seg 8 (25.0s-26.2s) <-> Seg 17 (55.0s-60.0s): similarity=0.669
+  Seg 8 (25.0s-26.2s) <-> Seg 18 (60.0s-65.0s): similarity=0.640
+  Seg 8 (25.0s-26.2s) <-> Seg 19 (65.0s-70.0s): similarity=0.721
+  Seg 8 (25.0s-26.2s) <-> Seg 20 (70.0s-75.0s): similarity=0.714
+  Seg 8 (25.0s-26.2s) <-> Seg 21 (75.0s-80.0s): similarity=0.706
+  Seg 8 (25.0s-26.2s) <-> Seg 22 (80.2s-85.0s): similarity=0.755
+  Seg 8 (25.0s-26.2s) <-> Seg 23 (85.0s-88.2s): similarity=0.786
+  Seg 10 (26.7s-30.0s) <-> Seg 11 (30.0s-35.0s): similarity=0.802
+  Seg 10 (26.7s-30.0s) <-> Seg 12 (35.0s-40.0s): similarity=0.854
+  Seg 10 (26.7s-30.0s) <-> Seg 13 (40.0s-45.0s): similarity=0.781
+  Seg 10 (26.7s-30.0s) <-> Seg 14 (45.0s-50.0s): similarity=0.761
+  Seg 10 (26.7s-30.0s) <-> Seg 16 (51.4s-55.0s): similarity=0.781
+  Seg 10 (26.7s-30.0s) <-> Seg 17 (55.0s-60.0s): similarity=0.819
+  Seg 10 (26.7s-30.0s) <-> Seg 18 (60.0s-65.0s): similarity=0.713
+  Seg 10 (26.7s-30.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.839
+  Seg 10 (26.7s-30.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.791
+  Seg 10 (26.7s-30.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.803
+  Seg 10 (26.7s-30.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.806
+  Seg 10 (26.7s-30.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.801
+  Seg 11 (30.0s-35.0s) <-> Seg 12 (35.0s-40.0s): similarity=0.829
+  Seg 11 (30.0s-35.0s) <-> Seg 13 (40.0s-45.0s): similarity=0.822
+  Seg 11 (30.0s-35.0s) <-> Seg 14 (45.0s-50.0s): similarity=0.795
+  Seg 11 (30.0s-35.0s) <-> Seg 16 (51.4s-55.0s): similarity=0.779
+  Seg 11 (30.0s-35.0s) <-> Seg 17 (55.0s-60.0s): similarity=0.715
+  Seg 11 (30.0s-35.0s) <-> Seg 18 (60.0s-65.0s): similarity=0.640
+  Seg 11 (30.0s-35.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.755
+  Seg 11 (30.0s-35.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.728
+  Seg 11 (30.0s-35.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.744
+  Seg 11 (30.0s-35.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.792
+  Seg 11 (30.0s-35.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.750
+  Seg 12 (35.0s-40.0s) <-> Seg 13 (40.0s-45.0s): similarity=0.852
+  Seg 12 (35.0s-40.0s) <-> Seg 14 (45.0s-50.0s): similarity=0.813
+  Seg 12 (35.0s-40.0s) <-> Seg 16 (51.4s-55.0s): similarity=0.761
+  Seg 12 (35.0s-40.0s) <-> Seg 17 (55.0s-60.0s): similarity=0.682
+  Seg 12 (35.0s-40.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.762
+  Seg 12 (35.0s-40.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.722
+  Seg 12 (35.0s-40.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.735
+  Seg 12 (35.0s-40.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.782
+  Seg 12 (35.0s-40.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.735
+  Seg 13 (40.0s-45.0s) <-> Seg 14 (45.0s-50.0s): similarity=0.782
+  Seg 13 (40.0s-45.0s) <-> Seg 16 (51.4s-55.0s): similarity=0.718
+  Seg 13 (40.0s-45.0s) <-> Seg 17 (55.0s-60.0s): similarity=0.680
+  Seg 13 (40.0s-45.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.719
+  Seg 13 (40.0s-45.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.705
+  Seg 13 (40.0s-45.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.685
+  Seg 13 (40.0s-45.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.754
+  Seg 13 (40.0s-45.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.710
+  Seg 14 (45.0s-50.0s) <-> Seg 16 (51.4s-55.0s): similarity=0.698
+  Seg 14 (45.0s-50.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.651
+  Seg 14 (45.0s-50.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.619
+  Seg 14 (45.0s-50.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.607
+  Seg 14 (45.0s-50.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.708
+  Seg 14 (45.0s-50.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.649
+  Seg 16 (51.4s-55.0s) <-> Seg 17 (55.0s-60.0s): similarity=0.776
+  Seg 16 (51.4s-55.0s) <-> Seg 18 (60.0s-65.0s): similarity=0.798
+  Seg 16 (51.4s-55.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.846
+  Seg 16 (51.4s-55.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.840
+  Seg 16 (51.4s-55.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.843
+  Seg 16 (51.4s-55.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.853
+  Seg 16 (51.4s-55.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.858
+  Seg 17 (55.0s-60.0s) <-> Seg 18 (60.0s-65.0s): similarity=0.887
+  Seg 17 (55.0s-60.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.927
+  Seg 17 (55.0s-60.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.904
+  Seg 17 (55.0s-60.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.901
+  Seg 17 (55.0s-60.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.818
+  Seg 17 (55.0s-60.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.844
+  Seg 18 (60.0s-65.0s) <-> Seg 19 (65.0s-70.0s): similarity=0.875
+  Seg 18 (60.0s-65.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.903
+  Seg 18 (60.0s-65.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.892
+  Seg 18 (60.0s-65.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.824
+  Seg 18 (60.0s-65.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.869
+  Seg 19 (65.0s-70.0s) <-> Seg 20 (70.0s-75.0s): similarity=0.927
+  Seg 19 (65.0s-70.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.933
+  Seg 19 (65.0s-70.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.852
+  Seg 19 (65.0s-70.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.875
+  Seg 20 (70.0s-75.0s) <-> Seg 21 (75.0s-80.0s): similarity=0.952
+  Seg 20 (70.0s-75.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.869
+  Seg 20 (70.0s-75.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.883
+  Seg 21 (75.0s-80.0s) <-> Seg 22 (80.2s-85.0s): similarity=0.879
+  Seg 21 (75.0s-80.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.906
+  Seg 22 (80.2s-85.0s) <-> Seg 23 (85.0s-88.2s): similarity=0.881
+
+Similarity statistics:
+  Min: 0.462, Max: 0.952, Avg: 0.742
+  Using threshold: 0.770
+
+=== DIARIZATION RESULTS ===
+
+0.0s - 2.3s: SPEAKER_0
+3.1s - 5.0s: SPEAKER_1
+5.0s - 10.0s: SPEAKER_0
+10.0s - 15.0s: SPEAKER_0
+15.0s - 20.0s: SPEAKER_0
+20.0s - 23.4s: SPEAKER_0
+23.4s - 24.6s: SPEAKER_0
+25.0s - 26.2s: SPEAKER_0
+26.7s - 30.0s: SPEAKER_0
+30.0s - 35.0s: SPEAKER_0
+35.0s - 40.0s: SPEAKER_0
+40.0s - 45.0s: SPEAKER_0
+45.0s - 50.0s: SPEAKER_0
+51.4s - 55.0s: SPEAKER_0
+55.0s - 60.0s: SPEAKER_0
+60.0s - 65.0s: SPEAKER_0
+65.0s - 70.0s: SPEAKER_0
+70.0s - 75.0s: SPEAKER_0
+75.0s - 80.0s: SPEAKER_0
+80.2s - 85.0s: SPEAKER_0
+85.0s - 88.2s: SPEAKER_0
+
+=== SUMMARY ===
+Total duration: 89.0 seconds
+Number of speakers detected: 2
+Number of speech segments: 25

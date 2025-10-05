@@ -1,0 +1,29 @@
+# Makefile for POC diarization
+
+# Local ONNX Runtime paths
+ONNX_RT_DIR = ./onnxruntime-osx-arm64-1.23.0
+ONNX_RT_INCLUDE = $(ONNX_RT_DIR)/include
+ONNX_RT_LIB = $(ONNX_RT_DIR)/lib
+
+# Compiler settings
+CC = clang
+CFLAGS = -I$(ONNX_RT_INCLUDE) -Wall -O2
+LDFLAGS = -L$(ONNX_RT_LIB) -lonnxruntime -Wl,-rpath,$(ONNX_RT_LIB)
+FRAMEWORKS = -framework CoreML -framework Foundation
+
+# Target
+TARGET = poc_diarize
+
+all: $(TARGET)
+
+$(TARGET): poc_diarize.c
+	$(CC) $(CFLAGS) poc_diarize.c -o $(TARGET) $(LDFLAGS) $(FRAMEWORKS)
+	@echo "✓ Compiled successfully!"
+
+run: $(TARGET)
+	./$(TARGET) "/Users/aleksander/Downloads/nagr/New Recording 43.m4a"
+
+clean:
+	rm -f $(TARGET)
+
+.PHONY: all run clean

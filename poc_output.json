@@ -1,0 +1,41 @@
+{
+  "audio_file": "/Users/aleksander/Downloads/Nagrania 03102025/New Recording 43.m4a",
+  "num_speakers": 2,
+  "segments": [
+    {
+      "start": 0.0,
+      "stop": 24.5,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 23.4,
+      "stop": 26.8,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 26.2,
+      "stop": 51.4,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 50.9,
+      "stop": 88.4,
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "start": 78.8,
+      "stop": 78.8,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 79.7,
+      "stop": 79.9,
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "start": 88.2,
+      "stop": 89.1,
+      "speaker": "SPEAKER_00"
+    }
+  ]
+}
